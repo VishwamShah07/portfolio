@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    html:0;
+    body:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+
+
+.hello-left {
+    padding-top:100px;
+    padding-left:100px;
+    width:50%;
+    justify-content: left;
+}
+
+.hello-right {
+    height:300px;
+}
+
+.hello {
+    display: flex;
+}
+
+.typing-text {
+    color:gold;
+    background-color:black;
+}
+
+.card1 {
+   display: flex;
+    width: 800px;
+    border-radius: 10px;
+    background-color: #06988c;
+    box-shadow: 0 14px 28px rgba(4, 4, 4, 0.2);
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top:70px;
+    margin-bottom:20px;
+    height:400px;
+    color:rgb(255, 255, 255);
+}
+
+.button {
+    padding-top: 100px;
+    
+}
+
+#button-about {
+    
+    border: 0.5px solid black;
+    padding:0.5rem;
+    border-radius: 10px;
+    border-color:rgb(93, 146, 64);
+    
+    
+}
+
+button:hover {
+    color:rgb(93, 174, 13);
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.projects {
+    text-align:center;
+}
+
+
+
+
+/* EDUCATION */
+
+  /* Card Container */
+  
+  .card {
+
+    width: 800px;
+    border-radius: 10px;
+    background-color: #06988c;
+    box-shadow: 0 14px 28px rgba(4, 4, 4, 0.2);
+    border-radius: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top:70px;
+    margin-bottom:20px;
+    height:300px;
+    color:rgb(255, 255, 255);
+}
+
+/* Card Image */
+.card img {
+    max-width: 400px;
+    height:400px;
+    
+}
+
+/* Card Content */
+.card-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+body {
+    background-color: #03102b;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR CSS */
+
+li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #040717;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    list-style: none;
+    margin-left: 100px;
+}
+
+.nav__links li{
+    display: inline-block;
+    
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    padding: 0 20px;
+}
+
+.nav__links li a:hover{
+    color: #139008;
+}
+
+
+/* ABOUT */
+
+
+.About {
+    padding: 10px;
+    margin :50px;
+}
+
+.About-content {
+    max-width: 100%;
+    text-align: justify;
+    
+}
+
+h2 {
+    font-size: 24px;
+    
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.5;
+    padding:20px;
+    font-weight: 600;
+}
+
+.button1 {
+    background: white;
+}
+
